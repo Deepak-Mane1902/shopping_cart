@@ -1,8 +1,8 @@
 const product = [
-     { id: 0, image: 'image/img4.png', title: 'JavaScript Course', price: 120 },
-     { id: 1, image: 'image/img5.png', title: 'GoLang Programming Course', price: 99 },
-     { id: 2, image: 'image/img4.png', title: 'JavaScript Course', price: 140 },
-     { id: 3, image: 'image/img5.png', title: 'GoLang Programming Course', price: 299 },
+     { id: 0, image: 'img4.png', title: 'JavaScript Course', price: 120 },
+     { id: 1, image: 'img5.png', title: 'GoLang Programming Course', price: 99 },
+     { id: 2, image: 'img4.png', title: 'JavaScript Course', price: 140 },
+     { id: 3, image: 'img5.png', title: 'GoLang Programming Course', price: 299 },
  ];
  
  // Deduplicate products based on title and price
