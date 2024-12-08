@@ -1,0 +1,218 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'poppins',sans-serif;
+     font-size: 18px;
+     /* color: #fff; */
+}
+body{
+width: 100%;
+height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+/* background-color: black; */
+}
+
+.header{
+     height: 80px;
+     width: 70%;
+     background-color: goldenrod;
+     border-radius: 3px;
+     -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+     -ms-border-radius: 3px;
+     -o-border-radius: 3px;
+     margin: 30px 0px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 15px;
+}
+
+.header .logo{
+     font-size: 30px;
+     font-weight: bold;
+     color: white;
+}
+.cart{
+     display: flex;
+     background-color: #fff;
+     justify-content: space-between;
+     align-items: center;
+     padding: 7px 10px;
+     border-radius: 3px;
+     -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+     -ms-border-radius: 3px;
+     -o-border-radius: 3px;
+     width: 80px;
+}
+
+.ri-shopping-cart-line{
+     color: goldenrod;
+     font-size: 2vw;
+}
+
+.cart p{
+     height: 22px;
+     width: 22px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 22px;
+     -webkit-border-radius: 22px;
+     -moz-border-radius: 22px;
+     -ms-border-radius: 22px;
+     -o-border-radius: 22px;
+     background-color: goldenrod;
+     color: #fff;
+}
+
+.container{
+     display: flex;
+     width: 70%;
+     margin-bottom: 30px;
+}
+#root{
+     width: 60%;
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     gap: 20px;
+}
+.sidebar{
+     width: 40%;
+     border-radius: 5px;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     -ms-border-radius: 5px;
+     -o-border-radius: 5px;
+     background-color: #eee;
+     margin-left: 20px;
+     padding: 15px;
+     text-align: center;
+}
+.head{
+     background-color: goldenrod;
+     border-radius: 3px;
+     -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+     -ms-border-radius: 3px;
+     -o-border-radius: 3px;
+     height: 40px;
+     padding: 10px;
+     margin-bottom: 20px;
+     color: #fff;
+     display: flex;
+     align-items: center;
+}
+
+.foot{
+     display: flex;
+     justify-content: space-between;
+     margin: 20px 0px;
+     padding: 10px 0px ;
+     border-top: 1px solid #333;
+}
+
+.box{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+     border: 1px solid goldenrod;
+     border-radius: 5px;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     -ms-border-radius: 5px;
+     -o-border-radius: 5px;
+     padding: 15px;
+}
+.img-box{
+     width: 100%;
+     height: 180px;
+     display: flex;
+     justify-content: center;
+}
+.images{
+     max-width: 90%;
+     max-height: 90%;
+     object-fit: cover;
+     object-position: center;
+}
+.bottom{
+     margin-top: 20px;
+     width: 100%;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+     height: 110px;
+}
+
+h2{
+     font-size: 20px;
+     color: red;
+}
+
+button{
+     width: 100%;
+     position: relative;
+     border: none;
+     border-radius: 5px;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     -ms-border-radius: 5px;
+     -o-border-radius: 5px;
+     padding: 7px 25px;
+     cursor: pointer;
+     color: white;
+     background-color: goldenrod;
+}
+button:hover{
+     background-color: #333;
+}
+.cart-item{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 10px;
+     background-color: #fff;
+     border-bottom: 1px solid #aaa;
+     border-radius: 3px;
+     -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+     -ms-border-radius: 3px;
+     -o-border-radius: 3px;
+     margin: 10px 10px;
+}
+.row-img{
+     width: 50px;
+     height: 50px;
+     border-radius: 50px;
+     -webkit-border-radius: 50px;
+     -moz-border-radius: 50px;
+     -ms-border-radius: 50px;
+     -o-border-radius: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.row-img{
+     max-width: 43px;
+     max-height: 43px;
+     border-radius: 50%;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -ms-border-radius: 50%;
+     -o-border-radius: 50%;
+}
+.rowing{
+     width: 4vw;
+}
+.ri-delete-bin-line{
+     cursor: pointer;
+}
